@@ -1,78 +1,77 @@
-<footer class="bg-[#f0f0f0] min-h-[40vh] max-h-full">
-  <div class="container pt-10 h-5/6 mb-auto">
+<footer class="">
+  <div class="container pt-5 mb-auto">
+    <div class="row d-flex justify-content-center">
+      <div class="col-lg-2 col-5 mt-4 mx-auto">
+        <span class="uppercase font-bold text-lg text-md-xl">Products</span>
 
-    <div class="grid lg:grid-cols-4 grid-cols-2">
-      <div class="mt-4 mx-auto md:max-w-fit">
-        <span class="uppercase font-bold text-lg md:text-xl">Products</span>
-
-        <ul class="list-none text-sm md:text-lg mt-4">
-          <li>
-            <a href="#!" class="">Product #1</a>
+        <ul style="list-style-type:none" class="text-sm text-md-lg mt-4 p-2">
+          <li class="text-decoration-none">
+            <a href="#!" class="mb-2">Product #1</a>
           </li>
-          <li>
-            <a href="#!" class="">Product #2</a>
+          <li class="text-decoration-none">
+            <a href="#!" class="mb-2">Product #2</a>
           </li>
-          <li>
-            <a href="#!" class="">Product #3</a>
+          <li class="text-decoration-none">
+            <a href="#!" class="mb-2">Product #3</a>
           </li>
-          <li>
-            <a href="#!" class="">Product #4</a>
+          <li class="text-decoration-none">
+            <a href="#!" class="mb-2">Product #4</a>
           </li>
-          <li>
-            <a href="#!" class="">Product #5</a>
+          <li class="text-decoration-none">
+            <a href="#!" class="mb-2">Product #5</a>
           </li>
         </ul>
       </div>
 
-      <div class="mt-4 mx-auto md:max-w-fit">
-        <span class="uppercase font-bold text-lg md:text-xl">Get Started</span>
+      <div class="col-lg-2 col-5 mt-4 mx-auto">
+        <span class="uppercase font-bold text-lg text-md-xl">Get Started</span>
 
-        <ul class="list-none text-sm md:text-lg mt-4">
-          <li>
-            <a href="#!" class="">Tutorial</a>
+        <ul style="list-style-type:none" class=" text-sm text-md-lg mt-4 p-2">
+          <li class="text-decoration-none">
+            <a href="#!" class="mb-2">Tutorial</a>
           </li>
-          <li>
-            <a href="#!" class="">Resources</a>
+          <li class="text-decoration-none">
+            <a href="#!" class="mb-2">Resources</a>
           </li>
-          <li>
-            <a href="#!" class="">Guides</a>
+          <li class="text-decoration-none">
+            <a href="#!" class="mb-2">Guides</a>
           </li>
-          <li>
-            <a href="#!" class="">Examples</a>
+          <li class="text-decoration-none">
+            <a href="#!" class="mb-2">Examples</a>
           </li>
-          <li>
-            <a href="#!" class="">Docs</a>
+          <li class="text-decoration-none">
+            <a href="#!" class="mb-2">Docs</a>
           </li>
         </ul>
       </div>
 
-      <div class="mt-4 mx-auto md:max-w-fit">
-        <span class="uppercase font-bold text-lg md:text-xl">About</span>
+      <div class="col-lg-2 col-5 mt-4 mx-auto">
+        <span class="uppercase font-bold text-lg text-md-xl">About</span>
 
-        <ul class="list-none text-sm md:text-lg mt-4">
-          <li>
-            <a href="#!" class="">Stories</a>
+        <ul style="list-style-type:none" class=" text-sm text-md-lg mt-4 p-2">
+          <li class="text-decoration-none">
+            <a href="#!" class="mb-2">Stories</a>
           </li>
-          <li>
-            <a href="#!" class="">Community</a>
+          <li class="text-decoration-none">
+            <a href="#!" class="mb-2">Community</a>
           </li>
-          <li>
-            <a href="#!" class="">Blog</a>
+          <li class="text-decoration-none">
+            <a href="#!" class="mb-2">Blog</a>
           </li>
-          <li>
-            <a href="#!" class="">Careers <span class="text-indigo-400 text:xs md:text-sm ml-2">N E W</span></a>
+          <li class="text-decoration-none">
+            <a href="#!" class="mb-2">Careers <span class="text-indigo-400 text:xs md:text-sm ml-2">N E W</span></a>
           </li>
-          <li>
-            <a href="#!" class="">Brand Assets</a>
+          <li class="text-decoration-none">
+            <a href="#!" class="mb-2">Brand Assets</a>
           </li>
         </ul>
       </div>
 
-      <div class="mt-4 mx-auto md:max-w-fit">
+      <div class="col-lg-2 col-5 mt-4 mx-auto">
         <span class="font-bold text-xl md:text-2xl text-blue-600"><i class="bi bi-hdd-stack-fill"></i></span>
 
-        <ul class="list-none text-sm md:text-lg mt-3">
-          <li>
+        <ul style="list-style-type:none" class=" text-sm text-md-lg mt-3 p-2">
+          <li class="text-decoration-none">
             <a href="#!" class="text-zinc-500">
                 3201 Northside Dr. #109 <br>
                 Raleigh, NC 27615
@@ -81,7 +80,7 @@
           <li class="my-2">
             <a href="#!" class="text-blue-600">contact@usipcom.com</a>
           </li>
-          <li>
+          <li class="text-decoration-none">
             <span class="text-zinc-500 text-xs md:text-sm">
                 Copyright © 2022. All rights reserved.
             </span>

@@ -1,26 +1,32 @@
-<div class="bg-sky-200 rounded-lg mx-auto h-fit w-fit p-3 mt-4">
-    <div class="block md:hidden">
+<div class="col-md-4 col-10 bg-sky-200 rounded-3 mx-auto p-md-3 mt-md-4 row text-blue-800" id="cart-summary">
+    <div class="col-12 d-block d-md-none ">
         <livewire:cart-overview />
+        <div style="height: 5px; background-color:white;">
+        </div>
     </div>
-    <div class="text-base md:text-lg ml-6 my-3">
+    <div class="col-12 text-md-lg ms-4">
         CART SUMMARY
     </div>
-    <div class="text-base md:text-lg grid grid-cols-3 px-4">
-        <div class="text-xl md:text-2xl">
-            <i class="bi bi-cart-fill"></i>
+    <div class="col-12 text-md-lg row d-flex justify-content-center align-items-center">
+        <div class="col-4 text-start text-xl text-md-2xl">
+            <img class="img-fluid" src="https://static.vecteezy.com/system/resources/previews/004/999/463/original/shopping-cart-icon-illustration-free-vector.jpg" alt="">
         </div>
-        <div class="text-left">
-            <p>
-                Your sale <br>
-                Subtotal
-            </p>
-        </div>
-        <div class="text-right uppercase">
-            $ xy.ab <br>
-            $ ab.xy
-        </div>
+        <table class="col-8 text-sm text-md-base">
+            <tr>
+                <td>Your sale</td>
+                <td class="uppercase text-end">
+                    $ xy.ab
+                </td>
+            </tr>
+            <tr>
+                <td>Subtotal</td>
+                <td class="uppercase text-end">
+                    $ ab.xy
+                </td>
+            </tr>
+        </table>
     </div>
-    <button class="btn bg-sky-600 text-white md:my-7 mt-4 md:text-base text-sm w-[100%]">
+    <button class="col-12 btn bg-sky-600 text-white mt-4 mb-2 text-md-base text-sm">
         Checkout
     </button>
 </div>

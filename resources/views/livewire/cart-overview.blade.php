@@ -1,47 +1,48 @@
-<div class="bg-sky-200 rounded-lg mx-auto mt-4 py-3">
-    <div class="text-lg md:text-xl ml-6 my-3">
-        OVERVIEW
+<div class="bg-sky-200 rounded-3 mx-auto mt-4 py-3">
+    <div class="text-lg text-md-xl ms-4 mb-3">
+        <span class="my-auto">OVERVIEW</span>
     </div>
-    <div class="bg-white text-lg md:text-xl grid grid-cols-2 gap-4 place-content-between mb-4">
-        <div class="px-4 text-center">
+    <div class="bg-white text-md-lg row d-flex justify-content-center align-items-center mb-4">
+        <div class="px-4 text-center col-6">
             SELECTED PRODUCTS
         </div>
-        <div class="text-center px-4">
+        <div class="text-md-base text-center px-4 col-4 text-end">
             5 Items
         </div>
     </div>
-    <div class="grid grid-cols-2 gap-4 place-content-between mb-4">
+    <div class="mb-3">
         <!-- @for($i=0;$i<5;$i++) -->
-        <div class="grid grid-cols-2">
-            <div class="mx-auto w-fit my-auto">
-                <img class="w-[50%] mx-auto" src="{{ url('assets/images/tailwindcss.svg') }}">
+        <div class="d-flex justify-content-center mb-2 p-1 ps-3 pe-3">
+            <div style="width: 25%;" class="d-flex justify-content-center align-items-center me-2">
+                <img src="https://picsum.photos/200/300" class="rounded-3" width="100%" height="100px" alt="item">
             </div>
-            <div class="w-[50%]">
-                <p class="text-sm md:text-lg">
-                    Starter Pack
-                </p>
-                <p class="text-xs md:text-base uppercase">
-                    $ xy.ab
-                </p>
-                <p class="text-xs md:text-base h-[10%] mt-auto">
-                    <a href=""> Delete </a>
-                </p>
+            <div class="d-flex  justify-content-between flex-column " style="width: 65%;">
+                <div class="" style="height: 75%;">
+                    <h5 class="mb-1 text-color">Starter Pack</h5>
+                    <small class="h6 text-color">$ 20.00</small>
+                </div>
+                <div class="" style="height: 25%;">
+                    <p class="text-color">Delete</p>
+                </div>
             </div>
-        </div>
-        <div class="text-sm md:text-xl text-right pr-10">
-            <p>
-                <i class="bi bi-plus-circle-fill"></i>
-            </p>
-            <p class="mr-1">
-                1 
-            </p>
-            <p>
-                <i class="bi bi-dash-circle-fill"></i>
-            </p>
+            <div style="width: 10%;" class="d-flex flex-column   p-1">
+                <div class=" d-flex justify-content-center align-items-center " style="height: 35%;">
+                    <button class="rounded-circle border ">
+                        <img src="{{ url('assets/images/add.svg') }}" width="15px" height="15px" alt="item">
+                    </button>
+                </div>
+                <div class="d-flex justify-content-center align-items-center " style="height: 30%;">
+                    <div class="pt-1">
+                        <h5 class="text-color">1</h5>
+                    </div>
+                </div>
+                <div class=" d-flex justify-content-center align-items-center " style="height: 35%;">
+                    <button class="rounded-circle border ">
+                        <img src="{{ url('assets/images/substract.svg') }}" width="15px" height="15px" alt="item">
+                    </button>
+                </div>
+            </div>
         </div>
         <!-- @endfor -->
-    </div>
-    <div class="bg-white hidden md:block">
-        
     </div>
 </div>
