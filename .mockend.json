@@ -1,5 +1,5 @@
 {
   "Post": {
-    "title": { "string": "SOME TEXT" },
+    "title": "SOME TEXT"
   }
 }
